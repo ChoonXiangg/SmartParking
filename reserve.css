@@ -1,0 +1,43 @@
+body{
+    background:black;
+    font-family:"Press Start 2P";
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+label{
+    font-size:50px;
+    margin-top:0.67em;
+    margin-bottom:0.67em;
+    margin-left:0;
+    margin-right:0;
+    color:white;
+    display:block;
+    font-weight:bold;
+    text-align:center;
+}
+#flex-container{
+    width:1000px;
+    margin:0px auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+input{
+    height:100px;
+    width:1000px;
+    margin:20px;
+    background-color:lightgrey;
+}
+#button{
+    align-self:flex-end;
+}
+button{
+    height:100px;
+    width:200px;
+    background-color:lightgrey;
+    font-family:"Press Start 2P";
+}
+button:hover{
+    background-color:grey;
+}
